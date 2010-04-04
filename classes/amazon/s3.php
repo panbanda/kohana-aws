@@ -12,7 +12,7 @@ class Amazon_S3 extends S3
 	/**
 	 * Uploads a file to the S3 service
 	 *
-	 * @param  $filename  Location of the file
+	 * @param  $filename    Location of the file
 	 */
 	public function upload($filename, $remote_name, $bucket)
 	{

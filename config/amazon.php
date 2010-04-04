@@ -4,21 +4,21 @@ return array
 (
 	'account' => array
 	(
-		'access_key' 	=> 'ACCESS_KEY',
-		'secret_key'	=> 'SECRET_KEY'
+		'access_key' 	=> 'AKIAIZXYGBOHPIDKVOWQ',
+		'secret_key'	=> '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'
 	),
 	
 	'buckets' => array
 	(
 		'streaming' => array
 		(
-			'domain' 	=> 'SUBDOMAIN.cloudfront.net',
+			'domain' 	=> 's234rkfe0n1db4.cloudfront.net',
 			'streaming'	=> TRUE,
 		),
 		
 		'download' => array
 		(
-			'domain' 	=> 'SUBDOMAIN.cloudfront.net',
+			'domain' 	=> 'd6n29wj5o3rcl.cloudfront.net',
 			'streaming'	=> FALSE,
 		)
 	),
