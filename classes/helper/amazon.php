@@ -4,7 +4,7 @@ class Helper_Amazon
 {
 	public static function asset($url, $bucket) 
 	{
-		$config = Kohana::config('amazon.buckets.' . $bucket);
+		$config = Kohana::$config->load('amazon.buckets.' . $bucket);
 		
 		if ($config == NULL) throw new Kohana_Exception(':bucket is not a valid bucket in Amazon Config', array(':bucket' => $bucket));
 		
