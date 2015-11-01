@@ -1,6 +1,6 @@
 # Amazon AWS for Kohana 3+
 
-A module for managing amazon aws (including EC2, SQS, S3, and AWIS) [Kohana framework](http://kohanaphp.com/) (v3.0+).
+A module for managing Amazon AWS (including EC2, SQS, S3, and AWIS) [Kohana framework](http://kohanaphp.com/) (v3.0+).
 
 ## Quick Start
 
